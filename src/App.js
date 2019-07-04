@@ -1,25 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SimpleTable from './components/SimpleTable'
+import SimpleGrid from './components/SimpleGrid'
+import SimpleTable1 from './components/SimpleTable1'
+import DataGrid from './components/dataGrid/DataGrid'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SimpleGrid/>
   );
 }
 
